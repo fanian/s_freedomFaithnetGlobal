@@ -1,0 +1,1081 @@
+/* line 3, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+body {
+  font-family: "Conv_arial-regular", Sans-serif;
+  background: white;
+  min-width: 1200px;
+  min-height: 200px;
+  color: black;
+}
+
+/* line 10, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* line 19, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.wrapper, header .wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 24, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fl {
+  float: left;
+}
+
+/* line 27, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fr {
+  float: right;
+}
+
+/* line 30, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.cb {
+  clear: both;
+}
+
+/* line 33, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+input.error, textarea.error {
+  box-shadow: 0 0 5px red !important;
+}
+
+/* line 36, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+label.error {
+  display: none !important;
+}
+
+/* line 44, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header {
+  background: url(../img/bg_header.png) center no-repeat;
+  background-size: cover;
+  height: 537px;
+  margin-top: -20px;
+}
+/* line 49, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header.header_other {
+  background: none;
+  height: 100px;
+}
+/* line 53, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .menu {
+  background: rgba(255, 255, 255, 0.59);
+  height: 45px;
+}
+/* line 57, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .menu nav {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+/* line 63, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .menu nav ul {
+  float: right;
+}
+/* line 66, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .menu nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+/* line 71, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .menu nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* line 74, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .menu nav ul li a.login {
+  color: #043978;
+}
+/* line 76, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .menu_other {
+  background: #f8f7f7;
+}
+/* line 80, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .logo_min {
+  float: left;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+}
+/* line 85, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .logo {
+  float: left;
+  position: absolute;
+  top: 45px;
+  left: 155px;
+}
+/* line 90, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .wrapper {
+  margin-top: 120px;
+}
+/* line 93, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .wrapper .text {
+  text-align: center;
+  float: left;
+  width: 49%;
+}
+/* line 97, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .wrapper .text h1 {
+  font-size: 56px;
+  color: #021a3b;
+  line-height: 1.1em;
+}
+/* line 102, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .wrapper .text .button_group a {
+  height: 40px;
+  display: inline-block;
+  padding-top: 8px;
+  width: 190px;
+  color: white;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-right: -3px;
+  text-decoration: none;
+}
+/* line 112, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .wrapper .text .button_group a.register {
+  background: #84c11b;
+}
+/* line 114, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .wrapper .text .button_group a.login {
+  background: #506386;
+}
+/* line 116, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+header .wrapper .youtube {
+  float: right;
+  width: 49%;
+}
+
+/* line 119, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+h2 {
+  font-size: 36px;
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+}
+
+/* line 122, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+article {
+  margin-bottom: 90px;
+}
+/* line 125, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+article p {
+  font-size: 15px;
+  color: #252625;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 460px;
+  display: inline-block;
+}
+/* line 133, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+article img {
+  display: inline-block;
+  float: left;
+}
+/* line 137, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+article h2 {
+  color: #ab7ba9;
+  font-weight: normal;
+  padding-left: 40px;
+  letter-spacing: 3px;
+}
+
+/* line 143, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.columns {
+  font-size: 36px;
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 149, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 {
+  width: 370px;
+}
+/* line 151, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 .im {
+  background: black;
+}
+/* line 153, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 .im img {
+  opacity: 0.5;
+}
+/* line 156, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 .im:hover img {
+  opacity: 1;
+}
+/* line 161, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 a {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 1px;
+}
+/* line 170, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 h2 {
+  color: #ee5b5b;
+}
+/* line 176, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 h4 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 40px;
+  position: absolute;
+  right: 30px;
+  text-decoration: underline;
+  top: 0px;
+}
+/* line 187, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col1 .button {
+  font-size: 18px;
+  display: inline-block;
+  float: right;
+  color: #1d4a9b;
+  border: solid 2px #1d4a9b;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: 146px;
+  height: 35px;
+  padding-top: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 0px !important;
+}
+
+/* line 202, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 {
+  width: 280px;
+  margin-left: 20px;
+}
+/* line 206, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 h2 {
+  color: #93d150;
+}
+/* line 209, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 .button {
+  font-size: 18px;
+  display: inline-block;
+  float: right;
+  color: #1d4a9b;
+  border: solid 2px #1d4a9b;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: 160px;
+  height: 35px;
+  padding-top: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 0px !important;
+}
+/* line 226, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 ul {
+  text-align: left;
+  font-size: 16px;
+  list-style-type: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0;
+  background: #506386;
+}
+/* line 234, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 ul li {
+  border-bottom: 1px solid white;
+}
+/* line 237, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 ul li:last-child {
+  border-bottom: none;
+}
+/* line 239, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  position: relative;
+  height: 45px;
+  padding-left: 33px;
+  padding-top: 10px;
+}
+/* line 247, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 ul li a:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  background: url(../img/dot.png) center no-repeat;
+  width: 9px;
+  height: 9px;
+}
+/* line 255, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col2 ul li a:hover {
+  background: #a9e16e;
+}
+
+/* line 262, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 {
+  width: 280px;
+  margin-left: 10px;
+}
+/* line 265, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 h2 {
+  color: #ab7ba9;
+}
+/* line 268, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 .button {
+  font-size: 18px;
+  display: inline-block;
+  float: right;
+  color: #1d4a9b;
+  border: solid 2px #1d4a9b;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  padding-top: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 0px !important;
+}
+/* line 283, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 ul {
+  text-align: left;
+  font-size: 16px;
+  list-style-type: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0;
+  background: #506386;
+}
+/* line 291, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 ul li {
+  border-bottom: 1px solid white;
+}
+/* line 294, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 ul li:last-child {
+  border-bottom: none;
+}
+/* line 296, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  position: relative;
+  height: 45px;
+  padding-left: 33px;
+  padding-top: 10px;
+}
+/* line 304, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 ul li a:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  background: url(../img/dot.png) center no-repeat;
+  width: 9px;
+  height: 9px;
+}
+/* line 312, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.col3 ul li a:hover {
+  background: #c79ec5;
+}
+
+/* line 315, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.photo h2 {
+  color: #93d150;
+}
+/* line 318, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.photo .left {
+  position: absolute;
+  background: url(../img/left.png) center no-repeat;
+  width: 29px;
+  height: 29px;
+  top: 180px;
+  left: 0px;
+  cursor: pointer;
+}
+/* line 326, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.photo .slider {
+  margin-left: 45px;
+}
+/* line 330, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.photo .slider a {
+  margin-right: 2px;
+  background: black;
+}
+/* line 333, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.photo .slider a .photo {
+  opacity: 0.5;
+}
+/* line 336, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.photo .slider a:hover .photo {
+  opacity: 1;
+}
+/* line 344, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.photo .right {
+  position: absolute;
+  background: url(../img/right.png) center no-repeat;
+  width: 29px;
+  height: 29px;
+  top: 180px;
+  right: 0px;
+  cursor: pointer;
+}
+
+/* line 352, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.banner {
+  margin-top: 80px;
+}
+
+/* line 354, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video, .produk {
+  margin-top: 20px;
+}
+/* line 356, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video h4, .produk h4 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  bottom: 145px;
+  text-decoration: none;
+}
+/* line 365, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .play, .produk .play {
+  position: absolute;
+  display: inline-block;
+  top: 120px;
+  right: 117px;
+}
+/* line 370, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .fon, .produk .fon, .video .vid .fon, .produk .vid .fon, .video .img .fon, .produk .img .fon {
+  position: absolute;
+  background: url(../img/image_pink.png) center no-repeat;
+  width: 213px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+/* line 383, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .vid, .produk .vid {
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+/* line 386, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .vid .fon, .produk .vid .fon {
+  top: 0px;
+  left: 50px;
+  text-decoration: underline;
+  background: none;
+}
+/* line 392, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .vid .im, .produk .vid .im {
+  background: black;
+}
+/* line 395, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .vid .im img, .produk .vid .im img {
+  opacity: 0.3;
+}
+/* line 398, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .vid .im:hover img, .produk .vid .im:hover img {
+  opacity: 1;
+}
+/* line 400, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .img, .produk .img {
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+/* line 403, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .img .fon, .produk .img .fon {
+  top: 0px;
+  left: 50px;
+}
+/* line 407, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .img .im, .produk .img .im {
+  background: black;
+}
+/* line 410, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .img .im img, .produk .img .im img {
+  opacity: 0.5;
+}
+/* line 413, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .img .im:hover img, .produk .img .im:hover img {
+  opacity: 1;
+}
+/* line 422, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video a, .produk a {
+  position: relative;
+  display: inline-block;
+}
+/* line 428, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video h5, .produk h5 {
+  color: #4c61ac;
+  text-align: center;
+  font-size: 36px;
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  margin-bottom: 30px;
+}
+/* line 439, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.video .button, .produk .button {
+  font-size: 18px;
+  display: inline-block;
+  float: right;
+  color: #1d4a9b;
+  border: solid 2px #1d4a9b;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 35px;
+  padding-top: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+/* line 455, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.map {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+/* line 458, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.map h2 {
+  color: #df7ea8;
+  text-align: center;
+}
+/* line 462, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.map img {
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 466, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey {
+  height: 305px;
+  background: #aaaaaa;
+}
+/* line 469, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text {
+  color: #242424;
+  margin-left: 15px;
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+}
+/* line 475, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .address {
+  margin-right: 35px;
+  width: 200px;
+}
+/* line 478, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .address h2 {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+/* line 485, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .address p {
+  font-size: 14px;
+}
+/* line 487, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .address .phone {
+  font-size: 14px;
+  background: url(../img/phone.png) left center no-repeat;
+  padding-left: 15px;
+}
+/* line 491, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .address .mail {
+  font-size: 14px;
+  background: url(../img/mail.png) left center no-repeat;
+  padding-left: 15px;
+  height: 20px;
+}
+/* line 496, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .address .mail a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 499, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .tentag {
+  width: 130px;
+}
+/* line 501, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .tentag h2 {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+/* line 506, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .produk {
+  margin: 0;
+  width: 120px;
+}
+/* line 509, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .produk h2 {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+/* line 514, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .komunitas {
+  width: 120px;
+}
+/* line 516, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .komunitas h2 {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+/* line 521, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .kegiatan {
+  width: 130px;
+}
+/* line 523, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .kegiatan h2 {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+/* line 528, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .gallery {
+  width: 100px;
+}
+/* line 530, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .gallery h2 {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+/* line 537, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .berita {
+  width: 100px;
+}
+/* line 539, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text .berita h2 {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+/* line 551, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 555, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text ul li {
+  color: #242424;
+  font-size: 14px;
+}
+/* line 558, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+footer .grey .text ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 561, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.copy {
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-size: 14px;
+  color: #242424;
+}
+/* line 565, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.copy .logo {
+  margin-left: 15px;
+}
+/* line 567, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.copy .copyright {
+  position: absolute;
+  top: 273px;
+  left: 310px;
+}
+/* line 571, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.copy .digital {
+  background: url(../img/digitalBrand.png) center right no-repeat;
+  padding-right: 70px;
+  margin-right: 60px;
+  height: 22px;
+  margin-top: 59px;
+  float: right;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 580, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami {
+  margin-bottom: 80px;
+}
+/* line 584, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami h2 {
+  font-weight: normal;
+  color: #82c23f;
+}
+/* line 587, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami h2 span {
+  color: #b1b4ae;
+}
+/* line 589, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .slider_big {
+  margin: 0 auto;
+  display: table;
+}
+/* line 592, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .slider_big .img {
+  background: black;
+}
+/* line 594, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .slider_big .img .photo {
+  opacity: 0.5;
+}
+/* line 597, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .slider_big .img:hover .photo {
+  opacity: 1;
+}
+/* line 600, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .slider_big a span {
+  background: rgba(40, 41, 40, 0.6);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  width: 648px;
+  padding-top: 18px;
+}
+/* line 611, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .left_big {
+  position: absolute;
+  background: url(../img/left_big.png) center no-repeat;
+  width: 68px;
+  height: 68px;
+  top: 320px;
+  left: 35px;
+  cursor: pointer;
+}
+/* line 619, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .right_big {
+  position: absolute;
+  background: url(../img/right_big.png) center no-repeat;
+  width: 68px;
+  height: 68px;
+  top: 320px;
+  right: 35px;
+  cursor: pointer;
+}
+/* line 627, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .slider_wrapper {
+  margin-bottom: 65px;
+  padding: 20px;
+  border-top: 2px solid #424342;
+  border-bottom: 2px solid #424342;
+}
+/* line 634, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .photo .left {
+  top: 70px;
+}
+/* line 636, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.fotokami .photo .right {
+  top: 70px;
+}
+
+/* line 638, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.produk {
+  margin-bottom: 80px;
+}
+/* line 641, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.produk h5 {
+  font-weight: normal;
+  text-align: left;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+/* line 647, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.produk .im {
+  background: black;
+}
+/* line 649, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.produk .im img {
+  opacity: 0.3;
+}
+/* line 652, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.produk .im:hover img {
+  opacity: 1;
+}
+
+/* line 655, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news {
+  margin-bottom: 60px;
+}
+/* line 657, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .pager {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+}
+/* line 661, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .pager .left {
+  position: absolute;
+  background: url(../img/left.png) center no-repeat;
+  width: 29px;
+  height: 29px;
+  top: 7px;
+  right: 170px;
+  cursor: pointer;
+}
+/* line 669, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .pager .right {
+  position: absolute;
+  background: url(../img/right.png) center no-repeat;
+  width: 29px;
+  height: 29px;
+  top: 7px;
+  left: 170px;
+  cursor: pointer;
+}
+/* line 677, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news h2 {
+  color: #ee5b5b;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 35px;
+}
+/* line 682, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .slider {
+  display: table;
+  margin: 0 auto;
+}
+/* line 685, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .slider article {
+  border-bottom: 2px solid #424342;
+  margin-bottom: 30px;
+  padding-bottom: 54px;
+}
+/* line 689, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .slider article img {
+  margin: 0;
+}
+/* line 692, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .slider article .text h2 {
+  display: inline-block;
+  padding-left: 20px;
+  margin-top: 0;
+  line-height: 0.8em;
+}
+/* line 697, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news .slider article .text p {
+  width: 540px;
+  line-height: 1.3em;
+}
+/* line 700, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news #custom-pager {
+  width: 160px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  text-align: center;
+  border: solid 1px #7081bd;
+}
+/* line 707, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news #custom-pager a {
+  display: inline-block;
+  width: 20px;
+  border-right: solid 1px #7081bd;
+  padding-right: 32px;
+  padding-left: 18px;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+/* line 716, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news #custom-pager a.activeSlide {
+  color: blue;
+}
+/* line 718, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.news #custom-pager a:last-child {
+  border-right: none;
+}
+
+/* line 721, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products h2 {
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 35px;
+  color: #4c61ac;
+}
+
+/*sticky footer for tengang.html page */
+/* line 728, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.wrap_sticky_footer {
+  min-height: 100%;
+}
+/* line 730, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.wrap_sticky_footer main {
+  padding-bottom: 305px;
+  overflow: auto;
+}
+
+/* line 733, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.sticky_footer {
+  position: relative;
+  height: 305px;
+  clear: both;
+  margin-top: -305px;
+}
+
+/* line 740, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products {
+  margin-bottom: 80px;
+}
+/* line 742, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article {
+  border-bottom: 2px solid black;
+}
+/* line 744, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article h2 {
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 9px;
+}
+/* line 748, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article p {
+  margin-left: 0;
+}
+/* line 751, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text {
+  padding-left: 20px;
+  display: inline-block;
+  width: 580px;
+  border-left: 2px solid black;
+  line-height: 0.7em;
+}
+/* line 757, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text .number {
+  border: 1px solid #6c7dbb;
+  height: 30px;
+  width: 70px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  padding-left: 5px;
+  vertical-align: bottom;
+}
+/* line 766, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text .styled_select {
+  display: inline-block;
+  height: 31px;
+  overflow: hidden;
+  background: url(../img/select_arrow.png) right no-repeat;
+}
+/* line 774, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text .styled_select select {
+  border: 1px solid #6c7dbb;
+  font-size: 20px;
+  height: 31px;
+  width: 145px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 5px;
+  -webkit-appearance: none;
+  background: transparent;
+}
+/* line 783, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text .styled_select select::-ms-expand {
+  display: none;
+}
+/* line 787, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text .sell {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+/* line 790, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text .sell h3 {
+  font-size: 30px;
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  font-weight: normal;
+  display: inline-block;
+  float: left;
+  margin: 0 100px 0 0;
+  line-height: 30px;
+}
+/* line 798, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article .text p {
+  line-height: 1.3em;
+  width: 560px;
+}
+/* line 801, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products article img {
+  margin-right: 40px;
+}
+/* line 803, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products .gallery {
+  width: 535px;
+  margin: 0 auto;
+}
+/* line 807, H:/proj/freedomFaithnetGlobal/sass/style.sass */
+.products .gallery .fon {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "ArialNarrow", "Conv_arial-regular", Sans-serif;
+  width: 135px;
+  height: 40px;
+  padding-top: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  left: 19px;
+  top: 67px;
+}

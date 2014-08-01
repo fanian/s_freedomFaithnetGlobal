@@ -1,0 +1,863 @@
+$f: 'Conv_arial-regular', Sans-serif
+$fn: 'ArialNarrow', 'Conv_arial-regular', Sans-serif
+body
+  font-family: $f
+  background: white
+  min-width: 1200px
+  min-height: 200px
+  color: #000000
+
+*, *:before, *:after
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  outline: none
+
+@import "compass/css3"
+@import "placeholderText"
+
+.wrapper
+  width: 960px
+  margin: 0 auto
+  position: relative
+
+.fl
+  float: left
+
+.fr
+  float: right
+
+.cb
+  clear: both
+
+input.error, textarea.error
+  box-shadow: 0 0 5px red !important
+
+label.error
+  display: none !important
+
+//input
+//  @include input-placeholder
+//    color: #000000
+//    font-size: 16px
+
+header
+  background: url(../img/bg_header.png) center no-repeat
+  background-size: cover
+  height: 537px
+  margin-top: -20px
+  &.header_other
+    background: none
+    height: 100px
+
+  .menu
+    background: rgba(255,255,255,0.59)
+    height: 45px
+
+    nav
+      width: 960px
+      margin: 0 auto
+      text-align: center
+      position: relative
+
+      ul
+        float: right
+
+        li
+          display: inline-block
+          font-size: 16px
+          text-transform: uppercase
+          margin-left: 50px
+          a
+            text-decoration: none
+            color: black
+            &.login
+              color: #043978
+  .menu_other
+    background: rgb(248,247,247)
+
+
+  .logo_min
+    float: left
+    position: absolute
+    top: 10px
+    left: 160px
+  .logo
+    float: left
+    position: absolute
+    top: 45px
+    left: 155px
+  .wrapper
+    @extend .wrapper
+    margin-top: 120px
+    .text
+      text-align: center
+      float: left
+      width: 49%
+      h1
+        font-size: 56px
+        color: rgb(2,26,59)
+        line-height: 1.1em
+      .button_group
+        a
+          height: 40px
+          display: inline-block
+          padding-top: 8px
+          width: 190px
+          color: white
+          font-size: 19px
+          text-transform: uppercase
+          margin-right: -3px
+          text-decoration: none
+          &.register
+            background: rgb(132,193,27)
+          &.login
+            background: rgb(80,99,134)
+    .youtube
+      float: right
+      width: 49%
+h2
+  font-size: 36px
+  font-family: $fn
+article
+  margin-bottom: 90px
+
+  p
+    font-size: 15px
+    color: #252625
+    margin-left: 20px
+    margin-top: 0
+    margin-bottom: 0
+    width: 460px
+    display: inline-block
+  img
+    display: inline-block
+    float: left
+
+  h2
+    color: #ab7ba9
+    font-weight: normal
+    padding-left: 40px
+    letter-spacing: 3px
+
+.columns
+  font-size: 36px
+  font-family: $fn
+  text-align: center
+  margin-top: 20px
+
+.col1
+  width: 370px
+  .im
+    background: #000000
+    img
+      opacity: 0.5
+    &:hover
+      img
+        opacity: 1
+
+
+
+  a
+    position: relative
+    display: inline-block
+    margin-bottom: 15px
+    margin-right: 1px
+
+
+
+
+  h2
+    color: #ee5b5b
+
+
+
+
+  h4
+    color: white
+    font-size: 14px
+    font-weight: bold
+    display: inline-block
+    margin-top: 40px
+    position: absolute
+    right: 30px
+    text-decoration: underline
+    top: 0px
+
+  .button
+    font-size: 18px
+    display: inline-block
+    float: right
+    color: #1d4a9b
+    border: solid 2px #1d4a9b
+    +border-radius(5px)
+    width: 146px
+    height: 35px
+    padding-top: 3px
+    font-weight: bold
+    text-decoration: none
+    margin-top: 10px
+    margin-right: 0px !important
+
+.col2
+  width: 280px
+  margin-left: 20px
+
+  h2
+    color: rgb(147,209,80)
+
+  .button
+    font-size: 18px
+    display: inline-block
+    float: right
+    color: #1d4a9b
+    border: solid 2px #1d4a9b
+    +border-radius(5px)
+    width: 160px
+    height: 35px
+    padding-top: 3px
+    font-weight: bold
+    text-decoration: none
+    margin-top: 10px
+    margin-right: 0px !important
+
+
+
+  ul
+    text-align: left
+    font-size: 16px
+    list-style-type: none
+    +border-radius(5px)
+    padding: 0
+    background: rgb(80,99,134)
+
+    li
+      border-bottom: 1px solid white
+
+      &:last-child
+        border-bottom: none
+      a
+        text-decoration: none
+        color: white
+        display: block
+        position: relative
+        height: 45px
+        padding-left: 33px
+        padding-top: 10px
+        &:before
+          content: ""
+          position: absolute
+          top: 18px
+          left: 15px
+          background: url(../img/dot.png) center no-repeat
+          width: 9px
+          height: 9px
+        &:hover
+          background: rgb(169,225,110)
+
+
+
+
+
+.col3
+  width: 280px
+  margin-left: 10px
+  h2
+    color: rgb(171,123,169)
+
+  .button
+    font-size: 18px
+    display: inline-block
+    float: right
+    color: #1d4a9b
+    border: solid 2px #1d4a9b
+    +border-radius(5px)
+    width: 200px
+    height: 35px
+    padding-top: 3px
+    font-weight: bold
+    text-decoration: none
+    margin-top: 10px
+    margin-right: 0px !important
+
+  ul
+    text-align: left
+    font-size: 16px
+    list-style-type: none
+    +border-radius(5px)
+    padding: 0
+    background: rgb(80,99,134)
+
+    li
+      border-bottom: 1px solid white
+
+      &:last-child
+        border-bottom: none
+      a
+        text-decoration: none
+        color: white
+        display: block
+        position: relative
+        height: 45px
+        padding-left: 33px
+        padding-top: 10px
+        &:before
+          content: ""
+          position: absolute
+          top: 18px
+          left: 15px
+          background: url(../img/dot.png) center no-repeat
+          width: 9px
+          height: 9px
+        &:hover
+          background: rgb(199,158,197)
+.photo
+  h2
+    color: rgb(147,209,80)
+
+  .left
+    position: absolute
+    background: url(../img/left.png) center no-repeat
+    width: 29px
+    height: 29px
+    top: 180px
+    left: 0px
+    cursor: pointer
+  .slider
+    margin-left: 45px
+
+
+    a
+      margin-right: 2px
+      background: #000000
+      .photo
+        opacity: 0.5
+      &:hover
+        .photo
+          opacity: 1
+
+
+
+
+
+
+  .right
+    position: absolute
+    background: url(../img/right.png) center no-repeat
+    width: 29px
+    height: 29px
+    top: 180px
+    right: 0px
+    cursor: pointer
+.banner
+  margin-top: 80px
+.video
+  margin-top: 20px
+  h4
+    color: white
+    font-size: 14px
+    font-weight: bold
+    display: inline-block
+    position: absolute
+    right: 20px
+    bottom: 145px
+    text-decoration: none
+  .play
+    position: absolute
+    display: inline-block
+    top: 120px
+    right: 117px
+  .fon
+    position: absolute
+    background: url(../img/image_pink.png) center no-repeat
+    width: 213px
+    height: 90px
+    display: block
+    margin: 0 auto
+    color: white
+    font-family: $fn
+    font-size: 36px
+    text-align: center
+    padding-top: 15px
+    text-decoration: underline
+  .vid
+    margin-right: 4px
+    margin-bottom: 4px
+    .fon
+      @extend .fon
+      top: 0px
+      left: 50px
+      text-decoration: underline
+      background: none
+    .im
+
+      background: #000000
+      img
+        opacity: 0.3
+      &:hover
+        img
+          opacity: 1
+  .img
+    margin-right: 4px
+    margin-bottom: 4px
+    .fon
+      @extend .fon
+      top: 0px
+      left: 50px
+    .im
+
+      background: #000000
+      img
+        opacity: 0.5
+      &:hover
+        img
+          opacity: 1
+
+
+
+
+
+
+
+  a
+    position: relative
+    display: inline-block
+
+
+
+  h5
+    color: rgb(76,97,172)
+    text-align: center
+    font-size: 36px
+    font-family: $fn
+    margin-bottom: 30px
+
+
+
+
+
+  .button
+    font-size: 18px
+    display: inline-block
+    float: right
+    color: #1d4a9b
+    border: solid 2px #1d4a9b
+    +border-radius(5px)
+    padding-left: 12px
+    padding-right: 12px
+    height: 35px
+    padding-top: 3px
+    font-weight: bold
+    text-decoration: none
+    margin-top: 10px
+    margin-right: 15px
+    text-align: center
+.map
+  margin-top: 50px
+  margin-bottom: 100px
+  h2
+    color: #df7ea8
+    text-align: center
+
+  img
+    margin: 0 auto
+    display: block
+footer
+  .grey
+    height: 305px
+    background: rgb(170,170,170)
+    .text
+      color: #242424
+      margin-left: 15px
+      font-family: $fn
+
+
+      .address
+        margin-right: 35px
+        width: 200px
+        h2
+          font-family: $fn
+          font-size: 20px
+          color: black
+          text-align: left
+
+
+        p
+          font-size: 14px
+        .phone
+          font-size: 14px
+          background: url(../img/phone.png)left center no-repeat
+          padding-left: 15px
+        .mail
+          font-size: 14px
+          background: url(../img/mail.png)left center no-repeat
+          padding-left: 15px
+          height: 20px
+          a
+            color: inherit
+            text-decoration: none
+      .tentag
+        width: 130px
+        h2
+          font-family: $fn
+          font-size: 20px
+          color: white
+          text-align: left
+      .produk
+        margin: 0
+        width: 120px
+        h2
+          font-family: $fn
+          font-size: 20px
+          color: white
+          text-align: left
+      .komunitas
+        width: 120px
+        h2
+          font-family: $fn
+          font-size: 20px
+          color: white
+          text-align: left
+      .kegiatan
+        width: 130px
+        h2
+          font-family: $fn
+          font-size: 20px
+          color: white
+          text-align: left
+      .gallery
+        width: 100px
+        h2
+          font-family: $fn
+          font-size: 20px
+          color: white
+          text-align: left
+
+
+      .berita
+        width: 100px
+        h2
+          font-family: $fn
+          font-size: 20px
+          color: white
+          text-align: left
+
+
+
+
+
+
+
+      ul
+        list-style-type: none
+        padding: 0
+        margin-bottom: 0
+        li
+          color: #242424
+          font-size: 14px
+          a
+            color: inherit
+            text-decoration: none
+.copy
+  font-family: $fn
+  font-size: 14px
+  color: #242424
+  .logo
+    margin-left: 15px
+  .copyright
+    position: absolute
+    top: 273px
+    left: 310px
+  .digital
+    background: url(../img/digitalBrand.png) center right no-repeat
+    padding-right: 70px
+    margin-right: 60px
+    height: 22px
+    margin-top: 59px
+    float: right
+    color: inherit
+    text-decoration: none
+.fotokami
+  margin-bottom: 80px
+
+
+  h2
+    font-weight: normal
+    color: #82c23f
+    span
+      color: #b1b4ae
+  .slider_big
+    margin: 0 auto
+    display: table
+    .img
+      background: #000000
+      .photo
+        opacity: 0.5
+      &:hover
+        .photo
+          opacity: 1
+    a
+      span
+        background: rgba(40,41,40,0.6)
+        position: absolute
+        bottom: 0
+        right: 0
+        height: 60px
+        text-align: center
+        color: white
+        font-size: 18px
+        width: 648px
+        padding-top: 18px
+  .left_big
+    position: absolute
+    background: url(../img/left_big.png) center no-repeat
+    width: 68px
+    height: 68px
+    top: 320px
+    left: 35px
+    cursor: pointer
+  .right_big
+    position: absolute
+    background: url(../img/right_big.png) center no-repeat
+    width: 68px
+    height: 68px
+    top: 320px
+    right: 35px
+    cursor: pointer
+  .slider_wrapper
+    margin-bottom: 65px
+    padding: 20px
+    border-top: 2px solid rgb(66,67,66)
+    border-bottom: 2px solid rgb(66,67,66)
+
+  .photo
+    .left
+      top: 70px
+    .right
+      top: 70px
+.produk
+  @extend .video
+  margin-bottom: 80px
+  h5
+    font-weight: normal
+    text-align: left
+    margin-left: 35px
+    margin-top: 20px
+
+  .im
+    background: #000000
+    img
+      opacity: 0.3
+    &:hover
+      img
+        opacity: 1
+
+.news
+  margin-bottom: 60px
+  .pager
+    position: absolute
+    top: 35px
+    right: 40px
+    .left
+      position: absolute
+      background: url(../img/left.png) center no-repeat
+      width: 29px
+      height: 29px
+      top: 7px
+      right: 170px
+      cursor: pointer
+    .right
+      position: absolute
+      background: url(../img/right.png) center no-repeat
+      width: 29px
+      height: 29px
+      top: 7px
+      left: 170px
+      cursor: pointer
+  h2
+    color: #ee5b5b
+    font-weight: normal
+    display: inline-block
+    margin-left: 35px
+  .slider
+    display: table
+    margin: 0 auto
+    article
+      border-bottom: 2px solid rgb(66,67,66)
+      margin-bottom: 30px
+      padding-bottom: 54px
+      img
+        margin: 0
+      .text
+        h2
+          display: inline-block
+          padding-left: 20px
+          margin-top: 0
+          line-height: .8em
+        p
+          width: 540px
+          line-height: 1.3em
+  #custom-pager
+    width: 160px
+    +border-radius(10px)
+    margin-top: 5px
+    text-align: center
+    border: solid 1px rgb(112,129,189)
+
+    a
+      display: inline-block
+      width: 20px
+      border-right: solid 1px rgb(112,129,189)
+      padding-right: 32px
+      padding-left: 18px
+      font-size: 22px
+      color: black
+      text-decoration: none
+      &.activeSlide
+        color: blue
+    a:last-child
+      border-right: none
+.products
+  h2
+    font-weight: normal
+    display: inline-block
+    margin-left: 35px
+    color: rgb(76,97,172)
+
+/*sticky footer for tengang.html page*/
+.wrap_sticky_footer
+  min-height: 100%
+  main
+    padding-bottom: 305px
+    overflow: auto
+.sticky_footer
+  position: relative
+  height: 305px
+  clear: both
+  margin-top: -305px
+
+
+.products
+  margin-bottom: 80px
+  article
+    border-bottom: 2px solid black
+    h2
+      padding-left: 0
+      margin-left: 0
+      margin-top: 9px
+    p
+      margin-left: 0
+
+    .text
+      padding-left: 20px
+      display: inline-block
+      width: 580px
+      border-left: 2px solid black
+      line-height: 0.7em
+      .number
+        border: 1px solid rgb(108,125,187)
+        height: 30px
+        width: 70px
+        +border-radius(5px)
+        margin-right: 10px
+        font-size: 20px
+        padding-left: 5px
+        vertical-align: bottom
+      .styled_select
+        display: inline-block
+        height: 31px
+        overflow: hidden
+        background: url(../img/select_arrow.png) right no-repeat
+
+
+
+        select
+          border: 1px solid rgb(108,125,187)
+          font-size: 20px
+          height: 31px
+          width: 145px
+          +border-radius(5px)
+          padding-left: 5px
+          -webkit-appearance: none
+          background: transparent
+          &::-ms-expand
+            display: none
+
+
+      .sell
+        margin-top: 35px
+        margin-bottom: 10px
+        h3
+          font-size: 30px
+          font-family: $fn
+          font-weight: normal
+          display: inline-block
+          float: left
+          margin: 0 100px 0 0
+          line-height: 30px
+      p
+        line-height: 1.3em
+        width: 560px
+    img
+      margin-right: 40px
+  .gallery
+    width: 535px
+    margin: 0 auto
+
+    .fon
+      text-decoration: none
+      font-size: 30px
+      font-family: $fn
+      width: 135px
+      height: 40px
+      padding-top: 0
+      +border-radius(2px)
+      left: 19px
+      top: 67px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
